@@ -26,4 +26,4 @@ jobs:
         password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
     - name: Push the image to Docker Hub
-      run: docker push monimage
+      run: docker push getting-started
